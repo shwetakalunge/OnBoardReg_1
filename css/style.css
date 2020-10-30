@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 100vh;
+    visibility: hidden
+}
+
+.section-features {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.row {
+    max-width: 100%;
+    margin: 0 auto;
+}
+h2{
+  
+}
+
+.leftside,
+.rightside {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.leftside {
+    background-image: url('../images/Frame%201.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.rightside {
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.long-copy {
+    line-height: 25px;
+    margin: auto;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 600px;
+    padding: 12px 10px
+}
+
+.short-copy {
+    line-height: 20px;
+    margin: auto;
+    top: 65%;
+    left: 25%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.image_2 {
+    float: right;
+    right: 25%;
+    position: absolute;
+    top: 60%;
+}
+
+.rightside h2 {
+    width: 40%;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 25%;
+      font-family: Inter;
+font-style: normal;
+font-weight: bold;
+}
+
+.rightside text {
+    font-size: 15px;
+    float: right;
+    padding: 15px 10px;
+    display: block;
+}
+
+.rightside p {
+    display: inline-flex;
+    width: 70%;
+    margin: auto;
+    margin-left: 35%;
+    color: #8692A6;
+}
+
+/*-------------------------------------------------------------*/
+/*.btn {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    margin: 2px;
+    margin-top: 55px
+}*/
+.Button_Section {
+    margin-left: 20%;
+    margin-top: 40px;
+    display: inline-flex
+}
+
+.button_p1,
+.button_p2 {
+    line-height: 15px;
+    margin: auto;
+
+}
+
+.button {
+    background: #F5F9FF;
+    border: none;
+    color: #000000;
+    padding: 10px 10px;
+    background: #F5F9FF;
+    border: 1px solid #1565D8;
+    font-size: 14px;
+    margin: 0px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button1 {
+    background: #F5F9FF;
+    border: 1px solid #1565D8;
+    border: none;
+    color: #000000;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.button1:hover {
+    text-decoration: none
+}
+
+.section_button1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center
+}
+
+.section_button2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
